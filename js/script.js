@@ -6,6 +6,6 @@ function copyToClipboard(id){
 	navigator.clipboard.writeText(copyText.textContent);
 
 	/* Disable button with notice */
-	document.getElementById(id+'btn').value = 'ACF Key copied';
-	document.getElementById(id+'btn').disabled = true;
+	document.getElementById(id+'-btn').value = 'ACF Key copied';
+	document.getElementById(id+'-btn').disabled = true;
 }

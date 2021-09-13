@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>ACF Field Key Generator Tool</title>
+    <title>ACF Unique Key Generator</title>
     <link rel="icon" href="../images/acf.png">
     <link rel="stylesheet" href="../css/fonts.css">
     <link rel="stylesheet" href="../css/style.css">
