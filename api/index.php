@@ -19,9 +19,9 @@
         </header>
         <main>
             <p>The unique field key is <strong><<span id="field-key-copy"><?= 'field_' . uniqid(); ?></span>></strong></p>
-            <p><button onclick="copyToClipboard('field-key-copy');">Copy to clipboard</button></p>
+            <p><button id="field-key-copy-btn" onclick="copyToClipboard('field-key-copy');">Copy to clipboard</button></p>
             <p>The unique field group is <strong><<span id="field-group-copy"><?= 'group_' . uniqid(); ?></span>></strong></p>
-            <button onclick="copyToClipboard('field-group-copy');">Copy to clipboard</button>
+            <button id="field-group-copy-btn" onclick="copyToClipboard('field-group-copy');">Copy to clipboard</button>
         </main>
     </div>
 </div>

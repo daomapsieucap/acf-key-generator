@@ -5,6 +5,7 @@ function copyToClipboard(id){
 	/* Copy the text inside the text field */
 	navigator.clipboard.writeText(copyText.textContent);
 
-	/* Alert notice */
-	alert('ACF Key copied');
+	/* Disable button with notice */
+	document.getElementById(id+'btn').value = 'ACF Key copied';
+	document.getElementById(id+'btn').disabled = true;
 }
